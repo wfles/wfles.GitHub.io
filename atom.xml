@@ -2,21 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wfles.github.io/</id>
     <title>书荒菌</title>
-    <updated>2019-11-05T06:28:07.559Z</updated>
+    <updated>2020-02-10T12:22:16.249Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wfles.github.io/"/>
     <link rel="self" href="https://wfles.github.io//atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://wfles.github.io//images/avatar.png</logo>
     <icon>https://wfles.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, 书荒菌</rights>
+    <rights>All rights reserved 2020, 书荒菌</rights>
     <entry>
-        <title type="html"><![CDATA[Hello World]]></title>
-        <id>https://wfles.github.io//post/hello-gridea</id>
-        <link href="https://wfles.github.io//post/hello-gridea">
+        <title type="html"><![CDATA[获取小程序的特定页面路径的一个简单办法]]></title>
+        <id>https://wfles.github.io//post/huo-qu-xiao-cheng-xu-de-te-ding-ye-mian-lu-jing-de-yi-ge-jian-dan-ban-fa</id>
+        <link href="https://wfles.github.io//post/huo-qu-xiao-cheng-xu-de-te-ding-ye-mian-lu-jing-de-yi-ge-jian-dan-ban-fa">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>重开博客</p>
+        <updated>2020-02-10T11:59:44.000Z</updated>
+        <content type="html"><![CDATA[<p>最近工作上有个需求：需要获取有赞小程序购物车的页面路径，以方便客户由一个小程序直接跳转到有赞小程序的购物车，进而产生购买行为。</p>
+<p>但是有赞商城后台并没有直接获取购物车路径的办法，询问有赞客服后也告知没有办法。</p>
+<p>琢磨了一下，想到一个简单办法，最终证明可行。</p>
+<p>步骤如下：<br>
+1.在公众号图文消息编辑页面选择插入你需要获取页面路径的对应小程序。</p>
+<p>2.点击“获取更多页面路径”，然后开启入口，输入你的微信号。再次打开小程序后，点击右上角的「...」你就会发现可以自由复制任意页面的路径了。</p>
+<figure data-type="image" tabindex="1"><img src="https://wfles.github.io//post-images/1581336734629.jpg" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="https://box.kancloud.cn/27ad8f804410fd4193bdaf79d57640c1_700x500.png" alt=""></figure>
+<p>值得说明的是，复制功能仅保留10分钟，10分钟后功能消失。</p>
+<p>本文参考资料：https://www.kancloud.cn/chenchaofeng/xiaoguanwang/964641</p>
 ]]></content>
     </entry>
 </feed>
